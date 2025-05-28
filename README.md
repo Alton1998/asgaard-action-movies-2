@@ -37,15 +37,13 @@ It significantly outperforms traditional methods like AutoShot, especially on gr
 ```
 asgaard-action-movies-2/
 │
-├── data/                # Raw and processed datasets
-├── models/              # Pretrained models and configurations
-├── scripts/             # Core logic: SBD, KSE, classification
-├── notebooks/           # Experiments and visualization
-├── results/             # Output: plots, tables, error analysis
-├── configs/             # Thresholds, model configs
-├── requirements.txt     # Dependencies
-├── run_pipeline.py      # End-to-end execution script
-└── README.md
+├── shot_boundary_detection.py        # Detects shots using SigLIP and cosine similarity
+├── key_shot_generator.py             # Generates key shots from detected shots
+├── key_shot_annotator_classifier.py  # Annotates and classifies key shots using a fine-tuned LLaVA model
+├── trainer.py                        # Trains the action classification model using "The Wild Bunch (1969)-2-0_75.csv"
+├── requirements.txt                  # Dependencies
+└── README.md                         # Project documentation
+
 ```
 
 ---
