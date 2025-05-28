@@ -131,7 +131,7 @@ python run_pipeline.py --video_path path_to_video.mp4
 Special thanks to:
 - **Prof. Cor-Paul Bezemer** (Project Advisor)
 - **Prof. Li Cheng and Tico Romao** (Domain Knowledge & Dataset)
-- **Asgaard Lab**, **Abhishek Sharma**, and other collaborators
+- **Asgaard Lab**, and other collaborators
 
 ---
 
@@ -141,7 +141,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📫 Contact
 
-Project by **Alton Lavin D’Souza**  
-For inquiries, please reach out via [LinkedIn](https://www.linkedin.com/in/altondsouza/)
